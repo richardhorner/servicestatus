@@ -36,22 +36,7 @@ params:
   disableDarkMode: false
   shortDateFormat: 15:04 UTC — Jan 2
   down: "#e60000"
-  systems:
-    - name: Gateway
-      category: North Coast
-    - name: Backup Gateway
-      category: North Coast
-    - name: Website
-      description: The web frontend for the application.
-      category: Uncategorized
-      link: https://example.com/
-    - name: API
-      description: The guts of the application.
-      category: Uncategorized
-    - name: Media Proxy
-      description: This is the service responsible for serving images, audio, and
-        video. It is reliant on our CDN.
-      category: Uncategorized
+  systems: []
   dateFormat: January 2, 2006 at 3:04 PM UTC
   brand: "#0a0c0f"
   enableLastMod: true
@@ -59,23 +44,26 @@ params:
   logo: /img/logo_final_on_white.png
   incidentPostsPerPage: 10
   googleAnalytics: UA-00000000-1
+  customTabs:
+    - name: IT
+      link: https://www.gre.ac.uk/it-and-library
   alwaysKeepBrandColor: true
   disableComplexCalculations: false
   useLogo: true
   disrupted: "#cc4400"
   notice: "#24478f"
-  incidentHistoryFormat: yearly
+  incidentHistoryFormat: monthly
   disableIncidentHistory: false
   ok: "#008000"
   categories:
-    - name: North Coast
-      description: The main servers are located here.
-      closed: true
-    - name: Empty Category
-    - name: Uncategorized
-      untitled: true
+    - name: General IT Services
+    - name: IT Networks
+    - name: Staff IT Services
+    - name: Student IT Services
+    - name: Teaching & Learning
+    - name: University Library Services
   description: "This site displays information about the availability of IT
     services at the University of Greenwich. Issues will appear as a coloured
     box below this header: Click on the boxes to find out more information."
   enableCustomHTML: true
-  useLargeHeaderDesign: true
+  useLargeHeaderDesign: false
