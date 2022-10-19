@@ -36,7 +36,10 @@ params:
   disableDarkMode: false
   shortDateFormat: 15:04 UTC — Jan 2
   down: "#e60000"
-  systems: []
+  systems:
+    - name: Portal
+      category: General IT Services
+      description: The university Portal provides
   dateFormat: January 2, 2006 at 3:04 PM UTC
   brand: "#0a0c0f"
   enableLastMod: true
@@ -52,7 +55,7 @@ params:
   useLogo: true
   disrupted: "#cc4400"
   notice: "#24478f"
-  incidentHistoryFormat: monthly
+  incidentHistoryFormat: none
   disableIncidentHistory: false
   ok: "#008000"
   categories:
