@@ -1,4 +1,4 @@
-title: Greenwich Status
+title: Greenwich IT Service Status
 buildFuture: true
 defaultContentLanguage: en
 languageCode: en
@@ -56,7 +56,7 @@ params:
   brand: "#0a0c0f"
   enableLastMod: true
   headerTextColor: white
-  logo: logo.png
+  logo: /img/logo_final_on_white.png
   incidentPostsPerPage: 10
   googleAnalytics: UA-00000000-1
   alwaysKeepBrandColor: true
@@ -74,7 +74,8 @@ params:
     - name: Empty Category
     - name: Uncategorized
       untitled: true
-  description: We continuously monitor the status of our services and if there are
-    any interruptions, a note will be posted here.
+  description: "This site displays information about the availability of IT
+    services at the University of Greenwich. Issues will appear as a coloured
+    box below this header: Click on the boxes to find out more information."
   enableCustomHTML: true
-  useLargeHeaderDesign: false
+  useLargeHeaderDesign: true
