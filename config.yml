@@ -2,7 +2,7 @@ title: Greenwich Status
 buildFuture: true
 defaultContentLanguage: en
 languageCode: en
-baseURL: https://example.com
+baseURL: https://luminous-malasada-fa9168.netlify.app/
 theme: cstate
 preserveTaxonomyNames: true
 taxonomies:
