@@ -52,7 +52,7 @@ params:
       link: https://www.gre.ac.uk/it-and-library
   alwaysKeepBrandColor: true
   disableComplexCalculations: false
-  useLogo: true
+  useLogo: false
   disrupted: "#cc4400"
   notice: "#24478f"
   incidentHistoryFormat: none
