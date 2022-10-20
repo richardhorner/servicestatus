@@ -2,9 +2,9 @@
 section: issue
 title: this is a test
 date: 2022-10-19T13:47:29.302Z
-resolved: false
+resolved: true
 draft: false
-informational: false
+informational: true
 pin: false
 resolvedWhen: 2022-10-19T13:47:29.313Z
 affected:
